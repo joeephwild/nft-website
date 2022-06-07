@@ -11,10 +11,9 @@ export default function Home() {
     <div className={style.wrapper}>
          <Navbar/>
          <Hero/>
-         <section>
-           <div className="grid md:grid-cols-2 grid-cols-1">
+         <section  className="">
+           <h1 className="font-bold text-2xl ">Best Sellers</h1>
              <Card/>
-           </div>
          </section>
     </div>
   )

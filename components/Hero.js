@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from 'next/image'
 import hero from '../public/assets/hero.png'
@@ -12,7 +11,10 @@ const style = {
     btn: 'bg-[#800080] px-2 py-3 text-white rounded',
     listdiv: 'space-x-4 flex items-center',
     span: 'flex-cols ',
-    p: 'text-gray-300 text-sm'
+    p: 'text-gray-300 text-sm',
+    bidWrapper: 'md:flex flex-col md:max-w-fit px-12 justify-between space-y-3 md:space-x-4 px-4 rounded-lg bg-black border-4 border-bold border-[#800080]',
+    bid: 'flex-col justify-center items-center p-1 md:p-3 space-y-2 text-center border-b md:border-r space-x-2 border-gray-600',
+    bidPrice: 'text-[#800080] font-bold text-sm md:text-lg'
     }
 const Hero = () => {
   return <div className={style.wrapper}>
@@ -40,15 +42,25 @@ const Hero = () => {
                       </p>
                   </span>
               </div>
-              <div className='bg-white/25 backdrop-blur-lg w-80 h-40 relative text-black flex-start'>
-          <div ></div>
-          <div ></div>
-          <div></div>
+              <div className={style.bidWrapper}>
+                  <div className={style.bid}>
+                      <p className="text-sm">Current Bid</p>
+                      <h1 className={style.bidPrice}>5,00ETH</h1>
+                      <p className="text-sm">$12,464.52</p>
+                  </div>
+                  <div className={style.bid}>
+                      <p className="text-sm text-center">see item</p>
+                      <h1 className={style.bidPrice+ 'text-center'}>246k+</h1>
+                      <p className="text-sm text-center">User Active</p>
+                  </div>
+                  <div className={style.bid}>
+                      <p className="text-sm text-center">Auction End in</p>
+                      <h1 className={style.bidPrice+ 'text-center'}>24 14 42</h1>
+                      <p className="text-sm text-center">Hours Mins Secs</p>
+                  </div>
+              </div>
       </div>
-      </div>
-      
           <Image src={hero}
-         
            height={520}
             width={520}
              objectFit="contain"
