@@ -42,6 +42,7 @@ const Hero = () => {
                       </p>
                   </span>
               </div>
+              <div className="md:ml-[45%]">
               <div className={style.bidWrapper}>
                   <div className={style.bid}>
                       <p className="text-sm">Current Bid</p>
@@ -59,9 +60,11 @@ const Hero = () => {
                       <p className="text-sm text-center">Hours Mins Secs</p>
                   </div>
               </div>
+              </div>
+              
       </div>
           <Image src={hero}
-           height={520}
+           height={650}
             width={520}
              objectFit="contain"
               alt="" />
