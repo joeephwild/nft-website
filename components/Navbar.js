@@ -2,7 +2,7 @@ import React from "react";
 import { FaEthereum } from 'react-icons/fa'
 
 const style = {
-    wrapper: 'w-full justify-between items=center flex',
+    wrapper: 'w-full p-8 justify-between items=center flex',
     logoContainer: 'flex items-center justify-center space-x-2',
     logotext: 'font-bold text-xl',
     buttonContainer: ' flex space-x-2 items-center',
