@@ -5,14 +5,14 @@ import Subscribe from "../components/Subscribe"
 
 
 const style = {
-  wrapper: 'p-6'
+  wrapper: 'max-w-7xl mx-auto px-8 sm:px-16'
 }
 export default function Home() {
   return (
     <div className={style.wrapper}>
          <Navbar/>
          <Hero/>
-         <section  className="m-6">
+         <section className="pt-6">
            <h1 className="font-bold text-2xl ">Best Sellers</h1>
              <Card/>
          </section>
