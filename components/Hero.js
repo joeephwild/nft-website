@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image'
-import hero from '../public/assets/hero.png'
+import hero from '../public/assets/Hero.png'
 
 const style = {
     wrapper: 'md:grid-cols-2 grid grid-cols-1 mt-12',
