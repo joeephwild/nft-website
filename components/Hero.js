@@ -64,6 +64,7 @@ const Hero = () => {
               
       </div>
           <Image src={hero}
+          className="mt-[10%]"
            height={650}
             width={520}
              objectFit="contain"
