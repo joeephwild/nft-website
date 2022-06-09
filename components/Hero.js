@@ -12,7 +12,7 @@ const style = {
     listdiv: 'space-x-4 flex items-center',
     span: 'flex-cols ',
     p: 'text-gray-300 text-sm',
-    bidWrapper: 'md:flex flex-col md:max-w-fit px-12 justify-between space-y-3 md:space-x-4 px-4 rounded-lg bg-black border-4 border-bold border-[#800080]',
+    bidWrapper: 'md:inline-flex flex-col md:max-w-fit px-12 justify-between space-y-3 md:space-x-4 px-4 rounded-lg bg-black border-4 border-bold border-[#800080]',
     bid: 'flex-col justify-center items-center p-1 md:p-3 space-y-2 text-center border-b md:border-r space-x-2 border-gray-600',
     bidPrice: 'text-[#800080] font-bold text-sm md:text-lg'
     }
