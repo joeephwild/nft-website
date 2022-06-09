@@ -5,7 +5,7 @@ import Subscribe from "../components/Subscribe"
 
 
 const style = {
-  wrapper: 'max-w-7xl mx-auto px-8 sm:px-16'
+  wrapper: 'max-w-7xl mx-auto p-16'
 }
 export default function Home() {
   return (
