@@ -5,13 +5,13 @@ import Subscribe from "../components/Subscribe"
 
 
 const style = {
-  wrapper: 'max-w-7xl mx-auto p-16'
+  wrapper: 'max-w-5xl mx-auto p-6'
 }
 export default function Home() {
   return (
-    <>
+    <> 
     <Navbar/>
-    <div className={style.wrapper}>
+    <div className={style.wrapper}> 
         
          <Hero/>
          <section className="pt-6">
