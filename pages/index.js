@@ -12,7 +12,7 @@ export default function Home() {
     <div className={style.wrapper}>
          <Navbar/>
          <Hero/>
-         <section  className="px-6">
+         <section  className="p-6">
            <h1 className="font-bold text-2xl ">Best Sellers</h1>
              <Card/>
          </section>
