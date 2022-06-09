@@ -9,8 +9,10 @@ const style = {
 }
 export default function Home() {
   return (
+    <>
+    <Navbar/>
     <div className={style.wrapper}>
-         <Navbar/>
+        
          <Hero/>
          <section className="pt-6">
            <h1 className="font-bold text-2xl ">Best Sellers</h1>
@@ -18,5 +20,7 @@ export default function Home() {
          </section>
          <Subscribe />
     </div>
+    </>
+
   )
 }
