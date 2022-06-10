@@ -5,16 +5,15 @@ import Subscribe from "../components/Subscribe"
 
 
 const style = {
-  wrapper: 'max-w-5xl mx-auto p-6'
+  wrapper: 'max-w-5xl mx-auto p-16'
 }
 export default function Home() {
   return (
     <> 
     <Navbar/>
+    <Hero />
     <div className={style.wrapper}> 
-        
-         <Hero/>
-         <section className="pt-6">
+         <section className="pt-6 space-y-4">
            <h1 className="font-bold text-2xl ">Best Sellers</h1>
              <Card/>
          </section>
