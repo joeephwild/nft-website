@@ -7,7 +7,7 @@ const style = {
     wrapper: 'md:grid-cols-2 grid grid-cols-1',
     text: 'font-bold text-5xl md:text-6xl',
     btndiv: 'flex space-x-2',
-    btn: 'bg-[#800080] px-2 py-3 text-white rounded',
+    btn: 'bg-gradient-to-r from-[#800080] to-blue-800 px-2 py-3 text-white rounded',
     listdiv: 'space-x-8 pl-8 flex items-center',
     span: 'flex-cols ',
     p: 'text-gray-300 text-sm',
