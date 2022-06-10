@@ -8,7 +8,7 @@ const style = {
     text: 'font-bold text-5xl md:text-6xl',
     btndiv: 'flex space-x-2',
     btn: 'bg-[#800080] px-2 py-3 text-white rounded',
-    listdiv: 'space-x-4 flex items-center',
+    listdiv: 'space-x-4 pl-8 flex items-center',
     span: 'flex-cols ',
     p: 'text-gray-300 text-sm',
     bidWrapper: 'md:flex flex-col md:max-w-fit px-12 justify-between space-y-3 md:space-x-4 px-4 rounded-lg bg-black border-4 border-bold border-[#800080]',
@@ -23,7 +23,7 @@ const Hero = () => {
           <p>A market place that has popular artists from the world</p>
           <div className={style.btndiv}>
               <button className={style.btn}>Explore more</button>
-              <button className={style.btn+ 'px-4 bg-transparent border-bold border-2 border-[#800080]'}>Create</button>
+              <button className={style.btn+ 'p-8 bg-transparent border-bold border-2 border-[#800080]'}>Create</button>
               
           </div>
           <div className={style.listdiv}>

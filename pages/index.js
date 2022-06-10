@@ -16,9 +16,9 @@ export default function Home() {
          <section className="pt-6 space-y-4">
            <h1 className="font-bold text-2xl ">Best Sellers</h1>
              <Card/>
-         </section>
-         <Subscribe />
+         </section> 
     </div>
+    <Subscribe />
     </>
 
   )

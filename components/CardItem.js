@@ -2,7 +2,7 @@ import React from "react";
 import Image from 'next/image'
 
 const style = {
-  wrapper: 'bg-gray-800/10 container shadow-2xl transition delay-300 hover:scale-105 p-2 max-w-fit rounded-lg overflow-hidden backdrop-blur-2xl ',
+  wrapper: 'bg-gray-500 container shadow-2xl transition delay-300 hover:scale-105 p-2 max-w-fit rounded-lg overflow-hidden backdrop-blur-2xl ',
   content: 'text-center space-y-2',
   title: 'font-bold text-lg',
   creatorSection: 'flex justify-evenly',
