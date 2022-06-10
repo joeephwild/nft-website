@@ -3,7 +3,7 @@ import React from "react";
 import Image from 'next/image'
 
 const style = {
-   wrapper: 'flex-col p-3 bg-[#32174d] overflow-clip flex relative gap-2',
+   wrapper: 'flex-col p-3  h-fit w-[100%] bg-[#32174d] overflow-clip flex relative gap-2',
    profileImages: 'relative flex flex-col items-center justify-center'
 }
 
@@ -27,8 +27,8 @@ const Artist = ({img, profile, description, name, sold, follower, worth}) => {
     </div>
      <div className="flex-col flex m-12">
          <span className="font-bold text-xl">{name}</span>
-         <span className="font-bold text-lg">{description}</span>
-         <button>Follow</button>
+         <span className="font-bold text-sm">{description}</span>
+         <button className=' text-sm bg-gradient-to-r from-[#800080] to-blue-800 rounded text-center p-3 text-white font-bold'>Follow</button>
      </div>
        <div className="flex bg-[#000080] py-8 space-x-4 space-y-2 justify-center items-center">
        <div className="flex-col justify-center items-center text-center  flex">
