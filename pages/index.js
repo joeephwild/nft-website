@@ -52,7 +52,7 @@ export default function Home() {
     </div>
      {/* gallery */} 
      <div>
-       <h2 className="font-bold text-2xl space-x-4">Gallery</h2>
+       <h2 className="font-bold text-2xl ml-[30%] space-x-4">Gallery</h2>
      <Gallery />
      </div>
       
