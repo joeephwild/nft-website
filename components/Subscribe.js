@@ -12,7 +12,7 @@ const style = {
 
 const Subscribe = () => {
   return <div className={style.wrapper}>
-       <Image src={blue} width={200} height={350} alt="" />
+       <Image src={blue} width={1300} height={650} alt="" />
        <div className={style.content}>
            <h2 className="font-bold text-2xl text-[#800080]">Subscribe to our Newsletter</h2>
            <p className="text-sm">Let notify you of the best selling nfts</p>
